@@ -7,7 +7,68 @@
      font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-     text-align: center;
+header {
+     padding: 30px;
 }
 
+h1 {
+     text-align: center;
+     font-size: 2.5em;
+}
+
+.produtos {
+     display: grid;
+     justify-items: center;
+     grid-template-columns: repeat(5, 1fr);
+     row-gap: 10px;
+}
+
+.produto {
+     border: 1px solid #b0acac;
+     border-radius: 8px;
+     text-align: center;
+     padding: 10px;
+     width: 250px;
+
+}
+
+img {
+     padding: 10px;
+     width: 180px;
+}
+
+.contador {
+     display: flex;
+     justify-content: center;
+     padding-bottom: 10px;
+}
+
+.number {
+     border: 1px solid #1f1f1f;
+     border-radius: 8px;
+     padding: 0 10px;
+     margin: 0 7px;
+     width: 37px;
+     height: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.buttonAdd {
+     background-color: #2d912dcb;
+     color: #fff;
+}
+
+.buttonRemove {
+     background-color: #f70a0ab6;
+     color: #fff;
+}
+
+.buttonAdd, .buttonRemove {
+     border: none;
+     border-radius: 30px;
+     cursor: pointer;
+     width: 25px;
+     height: 25px;
+}
