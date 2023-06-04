@@ -29,7 +29,11 @@ h1 {
      text-align: center;
      padding: 10px;
      width: 250px;
+}
 
+.produto p {
+     padding-bottom: 5px;
+     font-weight: 600;
 }
 
 img {
